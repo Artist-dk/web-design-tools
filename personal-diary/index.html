@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Diary</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="personal diary">
+        <meta name="Author" content="digambar kumbhar">
+        <meta naem="keyword" content="HTML, CSS, JavaScript">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="w-page">
+            <header>
+                <div class="top">
+                    <span class="title">PERSONAL DIARY</span>
+                </div>
+                <div class="second-top">
+                    <nav class="tab-box-nav">
+                        <span class="aaaaaa1 active" onclick="aaaaaa(event, 'aaazaa1')">1</span>
+                        <span class="aaaaaa1 var" onclick="aaaaaa(event, 'aaaaaa1')">2</span>
+                        <span class="aaaaaa1 var" onclick="aaaaaa(event, 'aaaaab1')">3</span>
+                        <span class="aaaaaa1 var" onclick="aaaaaa(event, 'aaaaac1')">4</span>
+                        <span class="aaaaaa1 var" onclick="aaaaaa(event, 'aaaaad1')">5</span>
+                        <span class="aaaaaa1 var" onclick="aaaaaa(event, 'aaaaae1')">6</span>
+                        <span class="aaaaaa1 var" onclick="aaaaaa(event, 'aaaaaf1')">7</span>
+                        <span class="aaaaaa1 var" onclick="aaaaaa(event, 'aaaaag1')">8</span>
+                        <span class="aaaaaa1 var" onclick="aaaaaa(event, 'aaaaah1')">9</span>
+                        <span class="aaaaaa1 var" onclick="aaaaaa(event, 'aaaaai1')">10</span>
+                    </nav>
+                </div>
+                <div class="controller-container">
+                    <div class="aaaaab1 var tab-box-sa" id="aaazaa1">
+                        <span style="display: inline-block; border-right:solid 1px gray;height:80px;padding:2px;box-sizing:border-box;">
+                            <span class="icon icon01 var" id="text-left-01" onclick="button(event)">
+                                <svg height="25px" width="25px">
+                                    <g>
+                                        <path d="M 0 0 L 25 0 L 25 1 L 0 1 Z"/>
+                                        <path d="M 0 4 L 20 4 L 20 5 L 0 5 Z" />
+                                        <path d="M 0 8 L 25 8 L 25 9 L 0 9 Z" />
+                                        <path d="M 0 12 L 20 12 L 20 13 L 0 13 Z" />
+                                        <path d="M 0 16 L 25 16 L 25 17 L 0 17 Z" />
+                                        <path d="M 0 20 L 20 20 L 20 21 L 0 21 Z" />
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="icon icon01 var" onclick="button(event)">
+                                <svg height="25px" width="25px">
+                                    <g>
+                                        <path d="M 0 0 L 25 0 L 25 1 L 0 1 Z"/>
+                                        <path d="M 5 4 L 20 4 L 20 5 L 5 5 Z"/>
+                                        <path d="M 0 8 L 25 8 L 25 9 L 0 9 Z"/>
+                                        <path d="M 5 12 L 20 12 L 20 13 L 5 13 Z"/>
+                                        <path d="M 0 16 L 25 16 L 25 17 L 0 17 Z"/>
+                                        <path d="M 5 20 L 20 20 L 20 21 L 5 21 Z"/>
+                                    </g>
+                                </svg>
+                            </span>
+                            <span class="icon icon01 var" onclick="button(event)">
+                                <svg height="25px" width="25px">
+                                    <g>
+                                        <path d="M 0 0 L 25 0 L 25 1 L 0 1 Z"/>
+                                        <path d="M 5 4 L 25 4 L 25 5 L 5 5 Z"/>
+                                        <path d="M 0 8 L 25 8 L 25 9 L 0 9 Z"/>
+                                        <path d="M 5 12 L 25 12 L 25 13 L 5 13 Z"/>
+                                        <path d="M 0 16 L 25 16 L 25 17 L 0 17 Z"/>
+                                        <path d="M 5 20 L 25 20 L 25 21 L 5 21 Z"/>
+                                    </g>
+                                </svg>
+                            </span>
+                        </span>
+                    </div>
+                    <div class="aaaaab1 hidden tab-box-sa" id="aaaaaa1">widndow 2</div>
+                    <div class="aaaaab1 hidden tab-box-sa" id="aaaaab1">widndow 3</div>
+                    <div class="aaaaab1 hidden tab-box-sa" id="aaaaac1">widndow 4</div>
+                    <div class="aaaaab1 hidden tab-box-sa" id="aaaaad1">widndow 5</div>
+                    <div class="aaaaab1 hidden tab-box-sa" id="aaaaae1">widndow 6</div>
+                    <div class="aaaaab1 hidden tab-box-sa" id="aaaaaf1">widndow 7</div>
+                    <div class="aaaaab1 hidden tab-box-sa" id="aaaaag1">widndow 8</div>
+                    <div class="aaaaab1 hidden tab-box-sa" id="aaaaah1">widndow 9</div>
+                    <div class="aaaaab1 hidden tab-box-sa" id="aaaaai1">widndow 10</div>
+                </div>
+            </header>
+            <div class="page-content">
+                <div class="box-a">
+                    <div class="page" id="diary-page"></div>
+                </div>
+            </div>
+            <footer>
+                <div class="container">
+                    <textarea id="src-input" placeholder="Enter content"></textarea>
+                    <button onclick="addData()">Svae</button>
+                </div>
+            </footer>
+        </div>
+        <script src="script.js"></script>
+        <script src="design-contents-1.js"  language="javascript" type="text/javascript"></script>
+    </body>
+</html>

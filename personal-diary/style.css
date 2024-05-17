@@ -1,0 +1,123 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.w-page {
+    max-width: 1300px;
+    box-shadow: 0 0 10px black;
+    margin: 0 auto;
+}
+header .top,
+header .second-top {
+    height: 20px;
+    width: 100%;
+    border-bottom: 1px solid lime;
+    display: flex;
+    align-items: center;
+}
+header .top span {
+    padding: 0 5px;
+    color: gray;
+    font-size: 12px;
+}
+header .second-top nav span {
+    display: inline-block;
+    /* background-color: red; */
+    padding: 0 8px;
+}
+header .second-top nav span:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+header .controller-container {
+    height: 80px;
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+}
+header .right {
+    /* background-color: red; */
+    height: 80px;
+    width: 60px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border-bottom: 1px soild transparent;
+}
+header .right .icon01 {
+    /* background-color: lime; */
+    height: 30px;
+    width: 30px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-gap: 6px;
+}
+header .right:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-bottom: solid 1px red;
+}
+header .right .icon01 span {
+    display: 0block;
+    height: 5px;
+    width: 30px;
+    background-color: gray;
+}
+header .icon01 {
+    padding: 4px;
+    display: inline-block;
+    background-color: whitesmoke;
+    box-shadow: 0 0 1px black;
+}
+header .icon:hover {
+    background-color: #0080ff50;
+}
+header .tab-box-sa {
+    padding: 3px;
+}
+.page-content {
+    position: fixed;
+    top: 122px;
+    bottom: 80px;
+    overflow: auto;
+    width: 100%;
+}
+.page-content .box-a {
+    padding: 20px;
+    height: 80px;
+    border-bottom: 1px solid gray;
+}
+.page {
+    height: 600px;
+    background-color: white;
+    box-shadow: gray 0 0 2px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    border-top: solid 1px gray;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+footer .container {
+    display: grid;
+    grid-template-columns: auto 60px;
+    grid-gap: 5px;
+}
+footer .container textarea {
+    resize: none;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+.hidden {
+    display: none;
+}
+.active {
+    background-color: lime !important;
+}
