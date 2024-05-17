@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag and Drop Image Input</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="dropzone" 
+     ondragover="event.preventDefault()" 
+     ondragenter="this.classList.add('hover')" 
+     ondragleave="this.classList.remove('hover')" 
+     ondrop="handleDrop(event)">
+    Drop Image Here
+</div>
+<label for="naturalWidth">imageObj.naturalWidth</label>
+<input type="number" name="naturalWidth" id="naturalWidth">
+<label for="naturalHeight">imageObj.naturalHeight</label>
+<input type="number" name="naturalWidth" id="naturalHeight">
+<input type="file" id="fileInput" style="display: none;" accept="image/*">
+<br>
+<img src="" id="fileOutput" alt="" srcset="">
+
+<script src="script.js"></script>
+
+</body>
+</html>
